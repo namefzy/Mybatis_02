@@ -1,1 +1,8 @@
 # Mybatis_02
+
+建造者模式 SqlSessionFactoryBuilder().build(inputStream)
+职责链模式 interceptorChain.pluginAll
+工厂模式 DefaultSqlSessionFactory创建DefaultSqlSession
+包装者模式 CachingExecutor
+委派模式 创建Configuration对象，委派XMLConfigBuilder解析全局配置文件
+代理模式 MapperProxy
